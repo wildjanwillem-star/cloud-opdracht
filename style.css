@@ -1,0 +1,22 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Segoe UI,sans-serif;
+background:linear-gradient(135deg,#050816,#0d1330);
+color:white;overflow-x:hidden;
+}
+nav{display:flex;justify-content:space-between;padding:20px 8%;position:fixed;width:100%;backdrop-filter:blur(10px)}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{color:white;text-decoration:none}
+.hero{text-align:center;padding:180px 20px}
+.hero h1{font-size:4rem;background:linear-gradient(90deg,cyan,violet);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn{display:inline-block;margin-top:30px;padding:15px 30px;border-radius:50px;background:linear-gradient(90deg,cyan,violet);color:white;text-decoration:none}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:60px 8%}
+.card,.step{background:rgba(255,255,255,.08);padding:30px;border-radius:20px;backdrop-filter:blur(12px);transition:.3s}
+.card:hover,.step:hover{transform:translateY(-8px)}
+.flow{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;padding:40px}
+#workflow{text-align:center;padding:80px 20px}
+.cursor-glow{position:fixed;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(0,255,255,.3),transparent 70%);pointer-events:none;transform:translate(-50%,-50%)}
+#particles{position:fixed;inset:0;overflow:hidden;z-index:-1}
+.particle{position:absolute;width:8px;height:8px;border-radius:50%;background:white;opacity:.3;animation:float 10s linear infinite}
+footer{text-align:center;padding:40px}
